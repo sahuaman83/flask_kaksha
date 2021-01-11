@@ -5,7 +5,7 @@ import json
 
 app = Flask(__name__)
 
-app.secret_key = 'your secret key'
+# app.secret_key = 'your secret key'
 
 # Configure db using yaml configuration file
 db = yaml.load(open('db.yaml'))
