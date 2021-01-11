@@ -1,2 +1,2 @@
 # flask_kaksha
-![](kaksha.ai/home.jpg)
+![](kaksha.ai/home.png)
