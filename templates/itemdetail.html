@@ -1,0 +1,23 @@
+<table border = 1>
+    <caption>Item details with author <b>Prof JK Chhabra</b></caption>
+    <br>
+    <tr>
+        <th>item_id</th>
+        <th>item_name</th>
+        <th>item_category</th>
+        <th>rating</th>
+        <th>details</th>
+        <th>discount</th>
+    </tr>
+
+    {% for item in itemdetail %}
+    <tr>
+      <td> {{item[0]}} </td>
+      <td> {{item[1]}} </td>
+      <td> {{item[2]}} </td>
+      <td> {{item[3]}} </td>
+      <td> {{item[4]}} </td>
+      <td> {{item[5]}} </td>
+    </tr>
+    {% endfor %}
+  </table>
