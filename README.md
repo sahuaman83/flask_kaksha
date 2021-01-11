@@ -26,3 +26,7 @@
 # API call of item details with author Prof JK Chhabra
 ![](kaksha.ai/itemdetail.png)
 
+
+# Notificaion API with JSON response
+![](kaksha.ai/noti.png)
+
